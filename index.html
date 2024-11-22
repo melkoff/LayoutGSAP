@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LayoutGSAP</title>
+
+    <!-- GSAP scripts-->
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Script&family=Ole&family=Raleway:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Script&family=Ole&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+            <section class="hero-section">
+                <img data-lag="0.5" data-speed=".6" class="hero" src="img/hero.png" alt="hero-img">
+                <div class="container">
+                    <div data-speed=".75" class="main-header">
+                        <h1 class="main-title">IVI Studio</h1>
+                    </div>
+                </div>
+            </section>
+        
+            <div class="portfolio">
+                <div class="container">
+                    <main class="gallery">
+                        <div data-speed=".9" class="gallery__left">
+        
+                            <img class="gallery__item" src="img/work/ascot.png" alt="img">
+                            <img class="gallery__item" src="img/work/cormorant.png" alt="img">
+        
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__title">Some title for this section!</h2>
+                                <p class="text-block__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptas sint iure architecto, laborum placeat accusantium, assumenda vero quas reprehenderit libero inventore ab dicta, nostrum excepturi fuga ipsum possimus amet.</p>
+                            </div>
+        
+                            <img class="gallery__item" src="img/work/cornell.png" alt="img">
+        
+                        </div>
+                        <div data-speed="1.1" class="gallery__right">
+        
+                            <div class="text-block gallery__item">
+                                <h2 class="text-block__title">Some title for this section!</h2>
+                                <p class="text-block__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptas sint iure architecto, laborum placeat accusantium, assumenda vero quas reprehenderit libero inventore ab dicta, nostrum excepturi fuga ipsum possimus amet.</p>
+                            </div>
+        
+                            <img class="gallery__item" src="img/work//fresno.png" alt="img">
+                            <img class="gallery__item" src="img/work/starbar.png" alt="img">
+                            <img class="gallery__item" src="img/work//westernslope.png" alt="img">
+        
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
