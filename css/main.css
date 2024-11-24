@@ -24,6 +24,10 @@ body{
     background-image: url(../img/bg.jpg);
     color: #fafafa;
     overflow-x: hidden;
+    background-repeat:repeat;
+}
+.hero-section{
+    position: relative;
 }
 
 .hero{
